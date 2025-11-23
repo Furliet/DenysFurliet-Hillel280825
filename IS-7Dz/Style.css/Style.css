@@ -1,0 +1,46 @@
+p {
+    color: greenyellow;
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #121217, #2a2d32);
+    color: #eaeaea;
+
+}
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 12px 0;
+    background: #121217;
+    border-top: 3px solid #c8aa6e; 
+
+}
+.menu-link {
+    padding: 8px 14px;
+    border-radius: 8px;
+    background: #1e2024;
+    color: #e9e6e1;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease;
+
+}
+.menu-link:hover {
+    background: #2a2d32;
+    color: #fff;
+    
+}
+#Mega {
+    font-size: 90px;
+}
